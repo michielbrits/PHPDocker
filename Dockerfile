@@ -1,5 +1,6 @@
 FROM php:8.1-fpm
 
+RUN echo "Dockerfile executed successfully"
 # Install msmtp, mysqli, and other required tools
 RUN apt-get update && apt-get install -y \
     msmtp \
